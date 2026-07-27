@@ -338,9 +338,10 @@ def main():
     )
 
     print(
-        "Best validation accuracy: "
+        "Meilleur precision de validation: "
         f"{best_validation_accuracy:.2%}"
     )
+    print("\nTraining completed successfully.")
 
     save_checkpoint(
         model=model,
