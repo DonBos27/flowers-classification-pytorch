@@ -193,14 +193,3 @@ checkpoints/flower_classifier_checkpoint.pth \
 ```
 
 ---
-
-## 13. Perspectives d'amélioration
-
-Plusieurs améliorations peuvent être envisagées :
-
-- Tester d'autres architectures (ResNet50, EfficientNet, Vision Transformer) ;
-- Réaliser une recherche automatique des hyperparamètres ;
-- Développer une interface graphique ;
-- Déployer le modèle sous forme d'application Web ou mobile.
-
----
