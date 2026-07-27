@@ -13,6 +13,7 @@ __pycache__/
 
 # Modèles entraînés 
 checkpoints/*.pth
+*.pth
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
