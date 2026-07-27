@@ -1,16 +1,12 @@
 import argparse
 import time
 from pathlib import Path
-
 import torch
 from torch import nn, optim
 from torch.utils.data import DataLoader
 from torchvision import datasets, transforms, models
 
 def get_input_args():
-    """
-    Read command line arguments.
-    """
 
     parser = argparse.ArgumentParser(
         description="Train a flower classifier."
@@ -188,9 +184,6 @@ def train_model(
     device,
     epochs
 ):
-    """
-    Train the model and keep the weights with the best validation accuracy.
-    """
 
     best_validation_accuracy = 0.0
     best_state_dict = None
@@ -280,9 +273,6 @@ def save_checkpoint(
     epochs,
     save_dir
 ):
-    """
-    Save the trained model and the information required to rebuild it.
-    """
 
     save_dir = Path(save_dir)
     save_dir.mkdir(parents=True, exist_ok=True)
