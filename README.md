@@ -1,4 +1,4 @@
-# 🌸 Classification d'Images de Fleurs par Deep Learning avec PyTorch
+# Classification d'Images de Fleurs par Deep Learning avec PyTorch
 
 ## 1. Présentation du projet
 
